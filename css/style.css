@@ -164,8 +164,7 @@ opacity: .7;
 }
 
 .formulario input[type="text"], 
-.formulario input[type="email"],
-.formulario textarea{
+.formulario input[type="email"]{
     padding: 15px;
     border: none;
     width: 100%;
@@ -176,6 +175,17 @@ opacity: .7;
     height: 150px;
     min-height: 150px;
     max-height: 250px;
+    padding: 15px;
+    border: none;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.formulario .infoCaract{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #333;
+    margin-bottom: 30px;
 }
 .formulario .boton{
     background: #123613;
@@ -215,3 +225,4 @@ opacity: .7;
 .redes-sociales .instagram{background: yellowgreen}
 .redes-sociales .pinterest{background: mediumseagreen;}
 .redes-sociales .google-plus{background: mediumspringgreen;}
+
